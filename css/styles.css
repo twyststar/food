@@ -13,3 +13,10 @@ img {
 .drink {
   display: none;
 }
+.click-sweet, .click-juicy, .click-drink {
+  cursor: pointer;
+}
+.click-sweet:hover, .click-juicy:hover, .click-drink:hover {
+  text-decoration: underline;
+  color: blue;
+}
